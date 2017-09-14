@@ -1,6 +1,34 @@
 body {
     font-family: 'HarmoniaSansPro', sans-serif;
 }
+header{
+    background: #ffffff;
+}
+.sh-contacts{
+    height: 60px;
+    border-bottom: solid 1px #edeff1;
+}
+.sh-contact-item{
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 12px;
+    line-height: 60px;
+}
+.sh-contact-item > i{
+    color: #ff6422;
+}
+.sh-contact-text, .sh-social-media{
+    color: #34404b;
+}
+.sh-social-media{
+    float: right;
+}
+.sh-social-media i{
+    margin-left: 20px;
+    line-height: 60px;
+}
+
+/*mainsection*/
 
 .bgimage {
     background-image: no-repeat center center;
