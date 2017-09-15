@@ -36,7 +36,8 @@ header{
     position: relative;
     min-height: 635px;
 }
-.headtext {
+
+.padding {
     padding: 230px 0;
 
 }
@@ -44,5 +45,41 @@ header{
     font-size: 52px;
     text-transform: uppercase;
     font-weight: bold;
-    color: #ff7013
+    color: #ff7013;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.headtext h4 {
+    font-size: 18px;
+}
+.headtext p {
+    font-size: 16px;
+    margin-bottom: 60px;
+
+}
+.headtext span {
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 30px;
+}
+.headtext span:last-child {
+    color: #ff7013;
+}
+.headtext span i {
+    padding-right: 8px;
+}
+.icoleft {
+    padding: 50px 0;
+}
+
+.icoleft .whiteico {
+    width: 10px;
+    height: 18px;
+    background-color: #fff;
+    margin: 10px 0;
+}
+.icoleft .orangeico {
+    width: 10px;
+    height: 36px;
+    background-color: #ff7013;
 }
