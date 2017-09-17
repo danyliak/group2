@@ -27,6 +27,23 @@ header{
     margin-left: 20px;
     line-height: 60px;
 }
+.sh-logo{
+    padding: 40px 0
+}
+.sh-nav ul li a{
+    white-space: nowrap;
+}
+.sh-nav ul li{
+    white-space: nowrap;
+}
+.sh-nav ul li a{
+    padding: 50px 40px 50px 40px;
+    text-decoration: none;
+    color: #34404b;
+}
+.sh-nav ul li a:hover{
+    color: #ff5912;
+}
 
 /*mainsection*/
 
