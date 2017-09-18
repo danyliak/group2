@@ -16,4 +16,10 @@ $(function(){
         }
     }
     renewItemsCnt();
+
+    $(".shtorka").on("click", function () {
+        $(".mobile-menu").slideToggle();
+        $(".shtorka .fa-times").toggleClass("hidden");
+        $(".shtorka .fa-angle-down").toggleClass("hidden");
+    });
 });
