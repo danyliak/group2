@@ -1,0 +1,30 @@
+@media only screen and (max-width: 768px) {
+    .padding {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .headtext h1 {
+        font-size: 40px;
+    }
+    .headtext h4 {
+        font-size: 14px;
+    }
+    .headtext p {
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+    .headtext span {
+        font-size: 14px;
+    }
+    .icoleft .whiteico {
+        width: 8px;
+        height: 16px;
+        margin: 8px 0;
+    }
+    .icoleft .orangeico {
+        width: 8px;
+        height: 32px;
+
+    }
+
+}
