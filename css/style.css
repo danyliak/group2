@@ -5,6 +5,8 @@ header{
     background: #ffffff;
 }
 .sh-contacts{
+    font-family: "Harmonia Sans Pro Cyr", sans-serif;
+    font-size: 12px;
     height: 60px;
     border-bottom: solid 1px #edeff1;
 }
@@ -14,36 +16,68 @@ header{
     font-size: 12px;
     line-height: 60px;
 }
-.sh-contact-item > i{
+.sh-contact-item > span{
     color: #ff6422;
 }
 .sh-contact-text, .sh-social-media{
-    color: #34404b;
+    color: #34404b!important;
 }
 .sh-social-media{
     float: right;
 }
-.sh-social-media i{
+.sh-social-media span{
     margin-left: 20px;
     line-height: 60px;
 }
-.sh-logo{
+.sh-logo {
     padding: 40px 0
 }
-.sh-nav ul li a{
-    white-space: nowrap;
+.sh-nav{
+    margin-bottom: 0;
 }
-.sh-nav ul li{
+.sh-nav li{
     white-space: nowrap;
+    display: inline-block;
 }
-.sh-nav ul li a{
+.sh-nav li a{
+    display: inline-block;
+    font-family: "Harmonia Sans Pro Cyr", sans-serif;
+    font-size: 16px;
     padding: 50px 40px 50px 40px;
     text-decoration: none;
     color: #34404b;
 }
-.sh-nav ul li a:hover{
+.sh-nav li a:hover{
     color: #ff5912;
 }
+.sh-nav-icons{
+    float: right;
+}
+.sh-nav-icons i, .sh-nav-icons span{
+    font-size: 18px;
+    padding: 50px 0 50px 25px;
+    position: relative;
+}
+.sh-nav-icons .sh-items-cnt{
+    color: #fff;
+    background: #34404b;
+    border-radius: 50%;
+    font-size: 9px;
+    position: absolute;
+    display: inline-block;
+    height: 18px;
+    max-height: 18px;
+    width: 18px;
+    padding: 0;
+    top: 35px;
+    left: 24px;
+    text-align: center;
+    padding-top: 3px;
+}
+.sh-cart-empty{
+    display: none!important;
+}
+
 
 /*mainsection*/
 
@@ -82,7 +116,7 @@ header{
 .headtext span:last-child {
     color: #ff7013;
 }
-.headtext span i {
+.headtext span span {
     padding-right: 8px;
 }
 .icoleft {
