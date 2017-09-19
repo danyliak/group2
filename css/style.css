@@ -265,6 +265,18 @@ header{
     border-radius: 50%;
     display: inline-block;
 }
+.productcolor .purple {
+    background-color: #e94650;
+}
+.productcolor .darkblue {
+    background-color: #43525d;
+}
+.productcolor .blue {
+    background-color: #44c1ff;
+}
+.productcolor .green {
+    background-color: #2fdc7a;
+}
 .hovergoods hr {
     border-color: #f5f7f9;
     margin-top: 25px;
