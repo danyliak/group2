@@ -59,6 +59,9 @@ header{
     float: right;
     padding-right: 15px;
 }
+.sh-nav-icons .fa-search{
+    font-weight: 300;
+}
 .sh-nav-icons i, .sh-nav-icons span{
     font-size: 18px;
     padding: 50px 0 50px 25px;
@@ -109,6 +112,9 @@ header{
 }
 .hidden{
     display: none;
+}
+.sh-cart-icon{
+    color: #ff5912;
 }
 
 
@@ -376,11 +382,73 @@ header{
     margin: 0;
     font-size: 10px;
 }
+.sh-news-letter{
+    background: #ffffff;
+}
+.sh-news-letter .row {
+    margin: 0;
+}
+.sh-news-letter h3{
+    margin: 0;
+    padding: 55px 23px 55px 55px;
+    display: inline-block;
+    font-family: "Harmonia Sans Pro Cyr", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+ }
+.sh-news-letter p{
+    margin: 0;
+    padding: 53px 0;
+    display: inline-block;
+    font-family: "Harmonia Sans Pro Cyr", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+.sh-news-left-side{
+    display: inline-block;
+}
+.sh-news-right-side{
+    display: inline-block;
+    float: right;
+}
+.sh-news-letter form{
+    padding: 40px 0;
+    float: right;
+    display: inline-block;
+}
+.sh-news-right-side .fa{
+    font-size: 12px;
+    padding-right: 8px;
+}
+.sh-news-right-side form{
+    margin-right: 40px;
+}
+.sh-news-right-side form button{
+    width: 100px;
+    height: 50px;
+    background: #ff7013;
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Myriad Pro", sans-serif;
+}
 
-
+.sh-news-right-side form input{
+    width: 285px;
+    border: none;
+    font-family: "Harmonia Sans Pro Cyr", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: #7c8791;
+}
+.sh-news-right-side form input:focus {
+    outline: 0 solid transparent;
+}
 
 
 /*  footer  */
+
 
 footer{
     padding: 90px 0;
