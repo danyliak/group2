@@ -8,6 +8,20 @@
     .leftsale span:nth-child(3) {
         padding: 0 30px;
     }
+    .sectionsales {
+        height: 140px;
+    }
+    .sectionsales span {
+        padding: 0 10px;
+        margin: 25px 0;
+    }
+    .sectionsales img{
+        width: 75px;
+        height: 75px;
+    }
+    .sectionsales h4 {
+        font-size: 16px;
+    }
 }
 @media only screen and (max-width: 992px) {
     .leftsale span:first-child {
@@ -44,8 +58,28 @@
     .rightsale h5 {
         margin-bottom: 10px;
     }
-
-
+    .sectionsales {
+        height: 100px;
+    }
+    .sectionsales span {
+        padding: 0 5px;
+        margin: 15px 0;
+    }
+    .sectionsales img{
+        width: 60px;
+        height: 60px;
+    }
+    .sectionsales h4 {
+        font-size: 14px;
+    }
+    .goodssaleshover .namesgood {
+        position: relative;
+        top: 0;
+    }
+    .goodssaleshover .jacket {
+        position: relative;
+        top: 5px;
+    }
 }
 @media only screen and (max-width: 768px) {
     .padding {
@@ -104,6 +138,9 @@
         display: block;
     }
     .leftsale {
+        text-align: center;
+    }
+    .sectionsales {
         text-align: center;
     }
     .sh-news-right-side form input{
