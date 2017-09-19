@@ -259,20 +259,22 @@ header{
     margin: 30px 0;
     font-size: 14px;
 }
-.hovergoods span {
+.hovergoods .productcolor span {
     height: 14px;
     width: 14px;
-    background-color: #e94650;
     border-radius: 50%;
     display: inline-block;
 }
-.hovergoods > span:nth-child(5) {
+.productcolor .purple {
+    background-color: #e94650;
+}
+.productcolor .darkblue {
     background-color: #43525d;
 }
-.hovergoods > span:nth-child(6) {
+.productcolor .blue {
     background-color: #44c1ff;
 }
-.hovergoods > span:nth-child(7) {
+.productcolor .green {
     background-color: #2fdc7a;
 }
 .hovergoods hr {
