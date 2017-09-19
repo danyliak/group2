@@ -395,6 +395,7 @@ header{
 }
 .goodssales span:last-child {
     border-left: 1px solid #f5f7f9;;
+
 }
 .namesgood h4 {
     margin-top: 0;
@@ -429,6 +430,8 @@ header{
 }
 .goodssaleshover .namesgood {
     text-align: center;
+    position: relative;
+    top: -5px
 }
 .goodssaleshover span {
     vertical-align: middle;
