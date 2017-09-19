@@ -262,18 +262,8 @@ header{
 .hovergoods span {
     height: 14px;
     width: 14px;
-    background-color: #e94650;
     border-radius: 50%;
     display: inline-block;
-}
-.hovergoods > span:nth-child(5) {
-    background-color: #43525d;
-}
-.hovergoods > span:nth-child(6) {
-    background-color: #44c1ff;
-}
-.hovergoods > span:nth-child(7) {
-    background-color: #2fdc7a;
 }
 .hovergoods hr {
     border-color: #f5f7f9;
