@@ -143,6 +143,9 @@
     .sectionsales {
         text-align: center;
     }
+    .sh-news-right-side form input{
+        width: 180px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -154,6 +157,22 @@
 @media only screen and (max-width: 1200px) {
     .sh-nav li a {
         padding: 50px 10px 50px 10px;
+    }
+    .sh-news-left-side{
+        display: block;
+        text-align: center;
+    }
+    .sh-news-right-side{
+        float: none;
+        display: flex;
+        text-align: center;
+    }
+
+    .sh-news-right-side form{
+        margin: 0 auto;
+    }
+    .sh-news-letter h3{
+        padding-left: 15px;
     }
 }
 @media only screen and (max-width: 992px) {
@@ -167,6 +186,12 @@
     }
     .leftsale span:nth-child(3) h4 span {
         display: inline-block;
+    }
+    .sh-news-letter h3, .sh-news-letter p{
+        padding: 10px;
+    }
+    .sh-news-letter input{
+        margin-bottom: 10px;
     }
 }
 
