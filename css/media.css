@@ -1,3 +1,52 @@
+@media only screen and (max-width: 1200px) {
+    .sh-nav li a{
+        padding: 50px 10px 50px 10px;
+    }
+    .leftsale span:first-child {
+        padding: 10px 30px;
+    }
+    .leftsale span:nth-child(3) {
+        padding: 0 30px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .leftsale span:first-child {
+        padding: 10px 15px;
+    }
+    .leftsale span:first-child img {
+        height: 60px;
+        width: 60px;
+    }
+    .leftsale span:nth-child(2) h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .leftsale span:nth-child(2) p {
+        font-size: 10px;
+    }
+    .leftsale span:nth-child(3) {
+        padding: 0 15px;
+    }
+    .leftsale span:nth-child(3) h4 {
+        display: inline-block;
+        font-size: 18px;
+    }
+    .leftsale span:nth-child(3) h4 span {
+        font-size: 14px;
+    }
+    .leftsale span:nth-child(3) a {
+        padding-right: 5px;
+        font-size: 14px;
+    }
+    .rightsale {
+        padding: 21px 0;
+    }
+    .rightsale h5 {
+        margin-bottom: 10px;
+    }
+
+
+}
 @media only screen and (max-width: 768px) {
     .padding {
         margin-left: 15px;
@@ -54,16 +103,33 @@
     .shtorka{
         display: block;
     }
+    .leftsale {
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 768px) {
-    .shtorka{
+    .mobile-menu{
         display: none!important;
     }
 }
 
 @media only screen and (max-width: 1200px) {
-    .sh-nav li a{
+    .sh-nav li a {
         padding: 50px 10px 50px 10px;
-        }
+    }
 }
+@media only screen and (max-width: 992px) {
+    .sh-footer-ul{
+        display: none;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .leftsale span {
+        display: block;
+    }
+    .leftsale span:nth-child(3) h4 span {
+        display: inline-block;
+    }
+}
+
