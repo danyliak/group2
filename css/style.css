@@ -6,7 +6,8 @@ header{
     background: #ffffff;
 }
 .sh-contacts{
-    height: 60px;
+    font-family: "Harmonia Sans Pro Cyr", sans-serif;
+    font-size: 12px;
     border-bottom: solid 1px #edeff1;
 }
 .sh-contact-item{
@@ -15,21 +16,104 @@ header{
     font-size: 12px;
     line-height: 60px;
 }
-.sh-contact-item > i{
+.sh-contact-item > span{
     color: #ff6422;
 }
 .sh-contact-text, .sh-social-media{
-    color: #34404b;
+    font-size: 10px;
+    color: #34404b!important;
 }
 .sh-social-media{
+    padding-right: 15px;
     float: right;
 }
-.sh-social-media i{
+.sh-social-media span:first-child{
+    margin-left: 0;
+}
+.sh-social-media span{
     margin-left: 20px;
     line-height: 60px;
 }
+.sh-logo {
+    padding: 40px 0
+}
+.sh-nav{
+    margin-bottom: 0;
+}
+.sh-nav li{
+    white-space: nowrap;
+    display: inline-block;
+}
+.sh-nav li a{
+    display: inline-block;
+    font-family: "Harmonia Sans Pro Cyr", sans-serif;
+    font-size: 16px;
+    padding: 50px 40px 50px 40px;
+    text-decoration: none;
+    color: #34404b;
+}
+.sh-nav li a:hover{
+    color: #ff5912;
+}
+.sh-nav-icons{
+    float: right;
+    padding-right: 15px;
+}
+.sh-nav-icons i, .sh-nav-icons span{
+    font-size: 18px;
+    padding: 50px 0 50px 25px;
+    position: relative;
+}
+.sh-nav-icons .sh-items-cnt{
+    color: #fff;
+    background: #34404b!important;
+    border-radius: 50%;
+    font-size: 9px;
+    position: absolute;
+    display: inline-block;
+    height: 18px;
+    max-height: 18px;
+    width: 18px;
+    padding: 0;
+    top: 35px;
+    left: 24px;
+    text-align: center;
+    padding-top: 3px;
+}
+.sh-cart-empty{
+    display: none!important;
+}
+.mobile-menu{
+    display: none;
+}
+.shtorka{
+    display: none;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.sh-mob-nav li {
+    width: 100%;
+    font-size: 20px;
+    margin: 5px 0;
+    text-align: center;
+
+}
+.sh-mob-nav li a{
+    text-decoration: none;
+    color: #34404b;
+    font-family: "Harmonia Sans Pro Cyr", sans-serif;
+}
+.sh-mob-nav li a:hover {
+    color: #ff5912;
+}
+.hidden{
+    display: none;
+}
 
 /*mainsection*/
+
+
 
 .bgimage {
     background: no-repeat center center;

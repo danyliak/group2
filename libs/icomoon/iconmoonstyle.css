@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?k5qvx3');
-  src:  url('fonts/icomoon.eot?k5qvx3#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?k5qvx3') format('truetype'),
-    url('fonts/icomoon.woff?k5qvx3') format('woff'),
-    url('fonts/icomoon.svg?k5qvx3#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?4phuzi');
+  src:  url('fonts/icomoon.eot?4phuzi#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?4phuzi') format('truetype'),
+    url('fonts/icomoon.woff?4phuzi') format('woff'),
+    url('fonts/icomoon.svg?4phuzi#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-i {
+.iconmoon {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -24,15 +24,192 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icons-commerce:before {
+.icons-credit-card-1 .path1:before {
   content: "\e900";
+  color: rgb(228, 231, 231);
 }
-.icons-like:before {
+.icons-credit-card-1 .path2:before {
   content: "\e901";
+  margin-left: -1em;
+  color: rgb(50, 77, 91);
 }
-.icons-cart:before {
+.icons-credit-card-1 .path3:before {
   content: "\e902";
+  margin-left: -1em;
+  color: rgb(244, 180, 89);
+}
+.icons-credit-card .path1:before {
+  content: "\e903";
+  color: rgb(209, 212, 210);
+}
+.icons-credit-card .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(165, 165, 164);
+}
+.icons-credit-card .path3:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icons-credit-card .path4:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icons-credit-card .path5:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icons-credit-card .path6:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icons-credit-card .path7:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icons-credit-card .path8:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icons-credit-card .path9:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icons-credit-card .path10:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icons-credit-card .path11:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icons-credit-card .path12:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icons-credit-card .path13:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icons-credit-card .path14:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icons-credit-card .path15:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icons-credit-card .path16:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(68, 130, 196);
+}
+.icons-credit-card .path17:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(68, 130, 196);
+}
+.icons-mastercard .path1:before {
+  content: "\e914";
+  color: rgb(82, 134, 249);
+}
+.icons-mastercard .path2:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(255, 182, 85);
+}
+.icons-mastercard .path3:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(216, 20, 58);
+}
+.icons-mastercard .path4:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(61, 109, 235);
+}
+.icons-visa .path1:before {
+  content: "\e918";
+  color: rgb(255, 255, 255);
+}
+.icons-visa .path2:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(247, 159, 26);
+}
+.icons-visa .path3:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(5, 155, 191);
+}
+.icons-visa .path4:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(5, 155, 191);
+}
+.icons-visa .path5:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(5, 155, 191);
+}
+.icons-visa .path6:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(5, 155, 191);
+}
+.icons-visa .path7:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(5, 155, 191);
+}
+.icons-visa .path8:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(247, 159, 26);
+}
+.icons-visa .path9:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(32, 33, 33);
+  opacity: 0.15;
+}
+.icons-amex .path1:before {
+  content: "\e921";
+  color: rgb(38, 166, 209);
+}
+.icons-amex .path2:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icons-magnifying-glass:before {
+  content: "\e923";
+}
+.icons-heart:before {
+  content: "\e924";
+}
+.icons-man:before {
+  content: "\e925";
+}
+.icons-commerce-1:before {
+  content: "\e926";
+}
+.icons-commerce:before {
+  content: "\e927";
 }
 .icons-planet-earth:before {
-  content: "\e903";
+  content: "\e928";
 }

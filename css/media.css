@@ -1,4 +1,7 @@
 @media only screen and (max-width: 1200px) {
+    .sh-nav li a{
+        padding: 50px 10px 50px 10px;
+    }
     .leftsale span:first-child {
         padding: 10px 30px;
     }
@@ -70,7 +73,36 @@
     .icoleft .orangeico {
         width: 8px;
         height: 32px;
+    }
+    .sh-nav{
+        display: none;
+    }
+    .sh-social-media span{
+        margin-left: 15px;
+        font-size: 10px;
 
+    }
+    .sh-contact-item{
+        padding-right: 10px;
+        font-size: 10px;
+    }
+    .sh-nav li a{
+        padding: 30px 10px 30px 10px;
+    }
+    .sh-nav-icons i, .sh-nav-icons span{
+         padding: 30px 0 30px 25px;
+     }
+    .sh-logo{
+        padding: 23px 0;
+    }
+    .sh-contacts{
+        height: 40px;
+    }
+    .sh-contact-item, .sh-social-media span{
+        line-height: 40px;
+    }
+    .shtorka{
+        display: block;
     }
     .leftsale {
         text-align: center;
@@ -84,3 +116,4 @@
         display: inline-block;
     }
 }
+
