@@ -31,7 +31,6 @@
     .sh-social-media span{
         margin-left: 15px;
         font-size: 10px;
-
     }
     .sh-contact-item{
         padding-right: 10px;
@@ -54,6 +53,12 @@
     }
     .shtorka{
         display: block;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .shtorka{
+        display: none!important;
     }
 }
 
