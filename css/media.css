@@ -1,3 +1,49 @@
+@media only screen and (max-width: 1200px) {
+    .leftsale span:first-child {
+        padding: 10px 30px;
+    }
+    .leftsale span:nth-child(3) {
+        padding: 0 30px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .leftsale span:first-child {
+        padding: 10px 15px;
+    }
+    .leftsale span:first-child img {
+        height: 60px;
+        width: 60px;
+    }
+    .leftsale span:nth-child(2) h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .leftsale span:nth-child(2) p {
+        font-size: 10px;
+    }
+    .leftsale span:nth-child(3) {
+        padding: 0 15px;
+    }
+    .leftsale span:nth-child(3) h4 {
+        display: inline-block;
+        font-size: 18px;
+    }
+    .leftsale span:nth-child(3) h4 span {
+        font-size: 14px;
+    }
+    .leftsale span:nth-child(3) a {
+        padding-right: 5px;
+        font-size: 14px;
+    }
+    .rightsale {
+        padding: 21px 0;
+    }
+    .rightsale h5 {
+        margin-bottom: 10px;
+    }
+
+
+}
 @media only screen and (max-width: 768px) {
     .padding {
         margin-left: 15px;
@@ -26,5 +72,15 @@
         height: 32px;
 
     }
-
+    .leftsale {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .leftsale span {
+        display: block;
+    }
+    .leftsale span:nth-child(3) h4 span {
+        display: inline-block;
+    }
 }
