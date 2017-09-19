@@ -107,7 +107,6 @@
     .sh-social-media span{
         margin-left: 15px;
         font-size: 10px;
-
     }
     .sh-contact-item{
         padding-right: 10px;
@@ -136,6 +135,23 @@
     }
     .sectionsales {
         text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile-menu{
+        display: none!important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .sh-nav li a {
+        padding: 50px 10px 50px 10px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .sh-footer-ul{
+        display: none;
     }
 }
 @media only screen and (max-width: 480px) {

@@ -479,3 +479,37 @@ header{
 .rating > input:checked ~ label:hover,
 .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
 .rating > input:checked ~ label:hover ~ label { color: rgba(255, 116, 19, 0.5);;  }
+
+
+
+
+
+
+/*  footer  */
+
+footer{
+    padding: 90px 0;
+}
+footer .sh-copyright{
+    margin-top: 20px;
+}
+.sh-footer-ul{
+    font-family: "Harmonia Sans Pro Cyr", sans-serif;
+    font-size: 14px;
+}
+.sh-footer-ul li{
+    margin-bottom: 11px;
+    padding: 0;
+}
+.sh-orange-text{
+    color: #ff7013;
+}
+.sh-payment-methds{
+    float: right;
+}
+.sh-payment-methds h4{
+    margin-top: 5px;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
