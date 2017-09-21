@@ -94,6 +94,7 @@ $(function () {
 
     });
 
+
     
     $("#slider").slider({
         min: 0,
