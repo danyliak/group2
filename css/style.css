@@ -793,6 +793,7 @@ ul.tabs li.current img {
     color: #34404b;
     padding: 10px 0;
     list-style-type: none;
+    font-weight: bold;
 }
 .categories-filter li a {
     color: inherit;
@@ -808,14 +809,26 @@ ul.tabs li.current img {
     margin: 24px 0;
     border: inherit;
 }
-.sizes input:hover {
-    color: #ff5912;
+.brands ul {
+    color: #34404b;
+    padding: 10px 0;
+}
+.sizes.products-sizes{
+     display: block;
+ }
+.sizes.products-sizes ul {
+    color: #34404b;
+    padding: 10px 0;
+}
+#minCost, #maxCost {
+    width: 50px;
 }
 
 /* Ширина слайдера */
 
 #slider {
     width: 200px;
+    margin: 25px 0;
 }
 /* Контейнер слайдера */
 
@@ -829,7 +842,8 @@ ul.tabs li.current img {
     z-index: 2;
     width: 13px;   /* Задаем нужную ширину */
     height: 13px;  /* и высоту */
-    background: url(../img/slider.png) no-repeat; /* картинка изображающая ползунок. Или можно залить цветом, задать бордюр и скругления */
+    background-color: black;
+    border-radius: 50%;
     cursor: pointer
 }
 .ui-slider .ui-slider-range {
