@@ -38,9 +38,9 @@ $(function () {
             url: "databass/database.json",
             success: function (data) {
                 console.log(1);
-                $.each(data, function(key, value){
-                        if (key>=startingNum && key<startingNum+count) {
-                            var elem = `<div class="col-sm-6 col-md-3 cols">
+                $.each(data, function (key, value) {
+                    if (key >= startingNum && key < startingNum + count) {
+                        var elem = `<div class="col-sm-6 col-md-3 cols">
                                 <div class="section">
                                     <div class="goods">
                                         <img src="${value["img"]}" alt="jacket">
@@ -51,18 +51,18 @@ $(function () {
                                         <img src="${value["img"]}" alt="jacket">
                                         <h4>Reebok Track Jacket</h4>
                                         <p>sizes&#8195;:&#8195;`;
-                            for (let i = 0; i < value["sizes"].size(); i++) {
-                                if (i < value["sizes"].size() - 1)
-                                    elem += value["sizes"][i] + ` -`;
-                                else
-                                    elem += value["sizes"][i];
-                            }
+                        for (let i = 0; i < value["sizes"].size(); i++) {
+                            if (i < value["sizes"].size() - 1)
+                                elem += value["sizes"][i] + ` -`;
+                            else
+                                elem += value["sizes"][i];
+                        }
 
-                            elem += `</p>`;
-                            for (let i = 0; i < value["colors"].size(); i++) {
-                                elem += `<span style="backgound:"` + value["colors"][i] + `"></span>`;
-                            }
-                            elem += `<hr>
+                        elem += `</p>`;
+                        for (let i = 0; i < value["colors"].size(); i++) {
+                            elem += `<span style="backgound:"` + value["colors"][i] + `"></span>`;
+                        }
+                        elem += `<hr>
                                         <div class="hovericons">
                                             <a href="#"><i class="iconmoon icons-planet-earth"></i></a>
                                             <a href="#"><i class="iconmoon icons-commerce"></i></a>
@@ -70,9 +70,12 @@ $(function () {
                                         </div>
                                     </div>
                                 </div></div>`;
-                            cont.html(cont.html() + elem);
-                        }
-                    });
+                        cont.html(cont.html() + elem);
+                    }
+                });
+            }
+        })
+    }
 
     $("#slider").slider({
         min: 0,
@@ -113,10 +116,6 @@ $(function () {
 
     });
 
-});
-
-            }
-        });
         // $.getJSON("databass/database.json", function (data) {
         //     console.log(1);
         //     $.each(data, function(key, value){
@@ -155,7 +154,7 @@ $(function () {
         //         }
         //     });
         // });
-    }
+
 
     addItems(".new-arrivals", 4, 0);
 });
