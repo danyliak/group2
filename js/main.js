@@ -26,3 +26,54 @@ $(function(){
     $('#footer').load('footer.html');
 
 });
+
+$(function () {
+    $('ul.tabs li').click(function(){
+        var tab_id = $(this).attr('data-tab');
+
+        $('ul.tabs li').removeClass('current');
+        $('.tab-content').removeClass('current');
+
+        $(this).addClass('current');
+        $("#"+tab_id).addClass('current');
+    })
+
+});
+
+$(function () {
+    var quantitiy = 0;
+    $('.quantity-right-plus').click(function(e){
+
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantity').val());
+
+        // If is not undefined
+
+        $('#quantity').val(quantity + 1);
+
+
+        // Increment
+
+    });
+
+    $('.quantity-left-minus').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantity').val());
+
+        // If is not undefined
+
+        // Increment
+        if(quantity>0){
+            $('#quantity').val(quantity - 1);
+        }
+    });
+
+
+});
+
+
+

@@ -2,6 +2,22 @@
     .sh-nav li a{
         padding: 50px 10px 50px 10px;
     }
+    .sh-news-left-side{
+        display: block;
+        text-align: center;
+    }
+    .sh-news-right-side{
+        float: none;
+        display: flex;
+        text-align: center;
+    }
+
+    .sh-news-right-side form{
+        margin: 0 auto;
+    }
+    .sh-news-letter h3{
+        padding-left: 15px;
+    }
     .leftsale span:first-child {
         padding: 10px 30px;
     }
@@ -22,7 +38,17 @@
     .sectionsales h4 {
         font-size: 16px;
     }
+    ul.tabs {
+        padding: 0 20px;
+    }
+    .tab-content {
+        padding: 0 20px;
+    }
+    .headtext, .choos-quantity {
+        padding-right: 30px;
+    }
 }
+
 @media only screen and (max-width: 992px) {
     .leftsale span:first-child {
         padding: 10px 15px;
@@ -80,6 +106,44 @@
         position: relative;
         top: 5px;
     }
+    .sh-footer-ul {
+        display: none;
+    }
+    ul.tabs {
+        padding: 0;
+    }
+    .tab-content {
+        padding: 0;
+    }
+    ul.tabs li {
+        width: 75px;
+    }
+    .currentgood .headtext {
+        padding-right: 0;
+    }
+    .choos-quantity, .ordernow {
+        padding-right: 0;
+    }
+    .choos-quantity, .ordernow {
+        float: none;
+    }
+    .choos-quantity, .choos-sizes, .ordernow, .price  {
+        display: block;
+
+    }
+    .ordernow {
+        position: relative;
+        left: -12px;
+    }
+    .currentgood .hr {
+        margin: 40px 0;
+    }
+    .currentgood .hr2 {
+        margin: 30px 0 40px 0;
+    }
+
+
+
 }
 @media only screen and (max-width: 768px) {
     .padding {
@@ -146,6 +210,28 @@
     .sh-news-right-side form input{
         width: 180px;
     }
+    .currentgood .headtext {
+        padding-top: 25px;
+        text-align: center;
+    }
+    .choos-quantity, .choos-sizes, .ordernow, .price{
+        display: inline-block;
+    }
+    .choos-quantity, .ordernow {
+        float: right;
+    }
+    .choos-quantity {
+        top: 4px;
+    }
+    .currentgood .headtext h1 {
+        font-size: 52px;
+    }
+    .currentgood .headtext h4 {
+        font-size: 18px;
+    }
+    .currentgood .headtext p {
+        font-size: 16px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -153,31 +239,22 @@
         display: none!important;
     }
 }
-
-@media only screen and (max-width: 1200px) {
-    .sh-nav li a {
-        padding: 50px 10px 50px 10px;
+@media only screen and (max-width: 568px) {
+    .currentgood .headtext h1 {
+        font-size: 40px;
     }
-    .sh-news-left-side{
+    .currentgood .headtext h4 {
+        font-size: 16px;
+    }
+    .currentgood .headtext p {
+        font-size: 12px;
+    }
+    .choos-quantity, .choos-sizes, .ordernow, .price{
         display: block;
-        text-align: center;
+        text-align: left;
     }
-    .sh-news-right-side{
+    .choos-quantity, .ordernow {
         float: none;
-        display: flex;
-        text-align: center;
-    }
-
-    .sh-news-right-side form{
-        margin: 0 auto;
-    }
-    .sh-news-letter h3{
-        padding-left: 15px;
-    }
-}
-@media only screen and (max-width: 992px) {
-    .sh-footer-ul{
-        display: none;
     }
 }
 @media only screen and (max-width: 480px) {
