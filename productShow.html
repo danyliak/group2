@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shop</title>
+
+    <link rel="stylesheet" href="libs/bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="libs/icomoon/style.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="header"></div>
+    <main>
+        <section class="currentgood">
+            <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 leftproduct">
+                        <div id="tab-1" class="tab-content current">
+                            <img src="img/1pro.png" alt="boots">
+                        </div>
+                        <div id="tab-2" class="tab-content">
+                            <img src="img/2pro.png" alt="pants">
+                        </div>
+                        <div id="tab-3" class="tab-content">
+                            <img src="img/3pro.png" alt="jacket">
+                        </div>
+                        <ul class="tabs">
+                            <li class="tab-link current" data-tab="tab-1"><img src="img/1pr.png" alt="boots"></li>
+                            <li class="tab-link" data-tab="tab-2"><img src="img/2pr.png" alt="pants"></li>
+                            <li class="tab-link" data-tab="tab-3"><img src="img/3pr.png" alt="jacket"></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-7 rightproduct">
+                        <div class=" headtext">
+                            <h1>Full winter kit</h1>
+                            <h4>Half Jacket + Skiny Trousers + Boot leather</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing</p>
+                            <p>and typesetting industry</p>
+                        </div>
+                        <hr class="hr">
+                        <span class="choos-sizes">
+                            <p>Choos Size</p>
+                            <div class="sizes">
+                                <button class="sizeS">S</button>-
+                                <button class="sizeM">M</button>-
+                                <button class="sizeL">L</button>-
+                                <button class="sizeXL">XL</button>
+                            </div>
+                        </span>
+                        <span class="choos-quantity">
+                            <p>Choos Quantity</p>
+                            <div class="quantity">
+                                <button type="button" class="quantity-right-plus"  data-type="minus" data-field="">+</button>
+                                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="3" min="1" max="100">
+                                <button type="button" class="quantity-left-minus" data-type="plus" data-field="">-</button>
+                            </div>
+                        </span>
+                        <hr class="hr2">
+                        <span class="price">
+                            <h5>Price : <span class="price-counter">120</span>$</h5>
+                        </span>
+                        <span class="ordernow">
+                            <div class="hovericons">
+                                <a href="#"><i class="iconmoon icons-planet-earth"></i></a>
+                                <a href="#"><i class="iconmoon icons-commerce"></i></a>
+                                <a href="#"> <i class="iconmoon icons-heart"></i></a>
+                            </div>
+                            <button type="button" data-toggle="modal" data-target="#myModal">
+                                 Order Now
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                    ...
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mainsection">
+            <div class="container">
+                <div class="maintext">
+                    <h2><span>Related </span><span>products</span></h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 cols">
+                        <div class="section">
+                            <div class="goods">
+                                <img src="img/3cl.png" alt="jacket">
+                                <h4>Reebok Track Jacket</h4>
+                                <p>100$</p>
+                            </div>
+                            <div class="hovergoods">
+                                <img src="img/3cl.png" alt="jacket">
+                                <h4>Reebok Track Jacket</h4>
+                                <p>sizes&#8195;:&#8195;s - m - l - xl</p>
+                                <div class="productcolor">
+                                    <span class="purple"></span>
+                                    <span class="darkblue"></span>
+                                    <span class="blue"></span>
+                                    <span class="green"></span>
+                                </div>
+                                <hr>
+                                <div class="hovericons">
+                                    <a href="#"><i class="iconmoon icons-planet-earth"></i></a>
+                                    <a href="#"><i class="iconmoon icons-commerce"></i></a>
+                                    <a href="#"> <i class="iconmoon icons-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 cols">
+                        <div class="section">
+                            <div class="goods">
+                                <img src="img/2cl.png" alt="jacket">
+                                <h4>Reebok Track Jacket</h4>
+                                <p>100$</p>
+                            </div>
+                            <div class="hovergoods">
+                                <img src="img/2cl.png" alt="jacket">
+                                <h4>Reebok Track Jacket</h4>
+                                <p>sizes&#8195;:&#8195;s - m - l - xl</p>
+                                <div class="productcolor">
+                                    <span class="purple"></span>
+                                    <span class="darkblue"></span>
+                                    <span class="blue"></span>
+                                    <span class="green"></span>
+                                </div>
+                                <hr>
+                                <div class="hovericons">
+                                    <a href="#"><i class="iconmoon icons-planet-earth"></i></a>
+                                    <a href="#"><i class="iconmoon icons-commerce"></i></a>
+                                    <a href="#"> <i class="iconmoon icons-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 cols">
+                        <div class="section">
+                            <div class="goods">
+                                <img src="img/1cl.png" alt="jacket">
+                                <h4>Reebok Track Jacket</h4>
+                                <p>100$</p>
+                            </div>
+                            <div class="hovergoods">
+                                <img src="img/1cl.png" alt="jacket">
+                                <h4>Reebok Track Jacket</h4>
+                                <p>sizes&#8195;:&#8195;s - m - l - xl</p>
+                                <div class="productcolor">
+                                    <span class="purple"></span>
+                                    <span class="darkblue"></span>
+                                    <span class="blue"></span>
+                                    <span class="green"></span>
+                                </div>
+                                <hr>
+                                <div class="hovericons">
+                                    <a href="#"><i class="iconmoon icons-planet-earth"></i></a>
+                                    <a href="#"><i class="iconmoon icons-commerce"></i></a>
+                                    <a href="#"> <i class="iconmoon icons-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 cols">
+                        <div class="section">
+                            <div class="goods">
+                                <img src="img/3cl.png" alt="jacket">
+                                <h4>Reebok Track Jacket</h4>
+                                <p>100$</p>
+                            </div>
+                            <div class="hovergoods">
+                                <img src="img/3cl.png" alt="jacket">
+                                <h4>Reebok Track Jacket</h4>
+                                <p>sizes&#8195;:&#8195;s - m - l - xl</p>
+                                <div class="productcolor">
+                                    <span class="purple"></span>
+                                    <span class="darkblue"></span>
+                                    <span class="blue"></span>
+                                    <span class="green"></span>
+                                </div>
+                                <hr>
+                                <div class="hovericons">
+                                    <a href="#"><i class="iconmoon icons-planet-earth"></i></a>
+                                    <a href="#"><i class="iconmoon icons-commerce"></i></a>
+                                    <a href="#"> <i class="iconmoon icons-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <section class="sh-news-letter">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="sh-news-left-side">
+                                <h3 class="text-uppercase sh-orange-text">News letter</h3>
+                                <p>join us now to get all news and special offers</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="sh-news-right-side clearfix">
+                                <form action="applePie.php" method="post">
+                                    <span class="fa fa-envelope-o sh-orange-text" aria-hidden="true"></span>
+                                    <input class="input-email" type="email" name="email" required placeholder="type your email here">
+                                    <button type="submit">join us</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+    <div id="footer"></div>
+
+    <script src="libs/jquery/jquery-3.2.1.min.js"></script>
+    <script src="libs/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
