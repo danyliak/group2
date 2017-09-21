@@ -1,17 +1,15 @@
-
-
-$(function(){
+$(function () {
     'use strict';
 
     $('#header').load('header.html', function () {
-        function renewItemsCnt (){
+        function renewItemsCnt() {
             var cartIcon = $(".sh-cart-icon");
             var itemsCnt = $(".sh-items-cnt");
-            if (itemsCnt.attr("data-items-cnt") !== "0"){
+            if (itemsCnt.attr("data-items-cnt") !== "0") {
                 console.log("show");
                 itemsCnt.removeClass("sh-cart-empty");
             }
-            else{
+            else {
                 itemsCnt.addClass("sh-cart-empty");
             }
         }
@@ -25,6 +23,14 @@ $(function(){
     });
     $('#footer').load('footer.html');
     var dataLength;
+
+    $('label').click(function () {
+        if ($('input', this).is(':checked')) {
+            $(this).css('color', '#ff5912');
+        } else {
+            $(this).css('color', '#34404b');
+        }
+    });
     function addItems(where, count, startingNum) {
         var cont = $(where);
         $.ajax({
@@ -88,4 +94,91 @@ $(function(){
 
     });
 
+    $("#slider").slider({
+        min: 0,
+        max: 1000,
+        values: [0, 1000],
+        range: true,
+        stop: function (event, ui) {
+            $("input#minCost").val($("#slider").slider("values", 0));
+            $("input#maxCost").val($("#slider").slider("values", 1));
+        },
+        slide: function (event, ui) {
+            $("input#minCost").val($("#slider").slider("values", 0));
+            $("input#maxCost").val($("#slider").slider("values", 1));
+        }
+    });
+
+    $("input#minCost").change(function () {
+        var value1 = $("input#minCost").val();
+        var value2 = $("input#maxCost").val();
+        if (parseInt(value1) > parseInt(value2)) {
+            value1 = value2;
+            $("input#minCost").val(value1);
+        }
+        $("#slider").slider("values", 0, value1);
+    });
+
+    $("input#maxCost").change(function () {
+        var value1 = $("input#minCost").val();
+        var value2 = $("input#maxCost").val();
+        if (value2 > 1000) {
+            value2 = 1000;
+            jQuery("input#maxCost").val(1000)
+        }
+        if (parseInt(value1) > parseInt(value2)) {
+            value2 = value1;
+            $("input#maxCost").val(value2);
+        }
+
+
+    });
+    $('ul.tabs li').click(function(){
+        var tab_id = $(this).attr('data-tab');
+
+        $('ul.tabs li').removeClass('current');
+        $('.tab-content').removeClass('current');
+
+        $(this).addClass('current');
+        $("#"+tab_id).addClass('current');
+    })
+
 });
+
+$(function () {
+    var quantitiy = 0;
+    $('.quantity-right-plus').click(function(e){
+
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantity').val());
+
+        // If is not undefined
+
+        $('#quantity').val(quantity + 1);
+
+
+        // Increment
+
+    });
+
+    $('.quantity-left-minus').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantity').val());
+
+        // If is not undefined
+
+        // Increment
+        if(quantity>0){
+            $('#quantity').val(quantity - 1);
+        }
+    });
+
+
+});
+
+
+

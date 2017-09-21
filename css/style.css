@@ -267,15 +267,19 @@ header{
 }
 .productcolor .purple {
     background-color: #e94650;
+    cursor: pointer;
 }
 .productcolor .darkblue {
     background-color: #43525d;
+    cursor: pointer;
 }
 .productcolor .blue {
     background-color: #44c1ff;
+    cursor: pointer;
 }
 .productcolor .green {
     background-color: #2fdc7a;
+    cursor: pointer;
 }
 .hovergoods hr {
     border-color: #f5f7f9;
@@ -587,4 +591,292 @@ footer .sh-copyright{
     font-family: "Myriad Pro", sans-serif;
     font-size: 16px;
     margin-bottom: 20px;
+}
+
+/*product*/
+
+
+.section-product {
+    background-color: #f4f6f8;
+    padding: 120px 0;
+}
+.section-product .addarrivals {
+    margin-top: 30px;
+}
+
+
+
+
+/*productShow*/
+
+.leftproduct {
+    margin: 0 auto;
+}
+
+ul.tabs{
+    margin: 0;
+    padding: 0 65px;
+    list-style: none;
+    text-align: center;
+
+}
+ul.tabs li{
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+    width: 90px;
+    margin: 0 8px;
+    background-color: #f4f6f8;
+}
+
+ul.tabs li.current{
+    background: #ff7013;
+}
+ul.tabs li.current img {
+    opacity: 0.4;
+}
+
+.tab-content{
+    display: none;
+    padding: 0 70px;
+    height: 380px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.tab-content.current{
+    display: inherit;
+}
+
+
+/**/
+
+.currentgood .container {
+    padding: 80px 15px;
+}
+.currentgood .headtext {
+    padding-right: 70px;
+}
+.currentgood .headtext h1 {
+    margin-bottom: 25px;
+}
+.currentgood .headtext h4 {
+    margin-bottom: 40px;
+
+}
+.currentgood .headtext P {
+    margin: 10px 0;
+
+}
+.currentgood hr {
+    margin-top: 0;
+    margin-bottom: 40px;
+
+}
+.currentgood .hr {
+    margin: 40px 70px 40px 0;
+}
+.currentgood .hr2 {
+    margin: 30px 70px 40px 0;
+}
+
+.choos-sizes{
+    padding: 8px 0;
+}
+.choos-sizes p, .sizes {
+    display: inline-block;
+}
+.choos-sizes p {
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 20px;
+    color: #3c4751;
+}
+.sizes button {
+    border: none;
+    background: none;
+    font-size: 14px;
+}
+.sizes button:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    color: #ff7013;
+    font-size: 18px;
+
+}
+.sizes button:active {
+    color: #ff7013;
+}
+.choos-quantity, .ordernow {
+    float: right;
+    padding-right: 70px;
+    position: relative;
+    top: -4px;
+}
+.choos-quantity p{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 20px;
+    color: #3c4751;
+    margin: 0;
+}
+.quantity {
+    display: inline-block;
+}
+.quantity button {
+    display: inline-block;
+    border: none;
+    color: #3c4751;
+    background: none;
+}
+.quantity button:focus {
+    outline: none;
+}
+.quantity input {
+    display: inline-block;
+    width: 40px;
+    border: none;
+    box-shadow: none;
+    color: #ff7013;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0;
+    text-align: center;
+}
+.quantity input:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.price h5, .price h5 > .price-counter {
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 0;
+    color: #3c4751;
+    display: inline-block;
+}
+
+.ordernow .hovericons {
+    display: inline-block;
+}
+.ordernow .hovericons i {
+    color: #3c4751;
+}
+.ordernow button {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff7013;
+
+
+}
+.ordernow button:focus {
+    outline: none;
+
+}
+
+
+/* Products */
+
+.col-sm-3 h4 {
+    color: #ff5912;
+    font-weight: bold;
+}
+.categories-filter li {
+    color: #34404b;
+    padding: 10px 0;
+    list-style-type: none;
+}
+.categories-filter li a {
+    color: inherit;
+    text-decoration: none;
+    transition: all .25s ease;
+}
+.categories-filter li a:hover {
+    color: #ff5912;
+}
+.categories-filter, .price-filter, .filter-sizes, .brands {
+    background-color: #ffffff;
+    padding: 20px 20px;
+    margin: 24px 0;
+    border: inherit;
+}
+.sizes input:hover {
+    color: #ff5912;
+}
+
+/* Ширина слайдера */
+
+#slider {
+    width: 200px;
+}
+/* Контейнер слайдера */
+
+.ui-slider {
+    position: relative;
+}
+/* Ползунок */
+
+.ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 13px;   /* Задаем нужную ширину */
+    height: 13px;  /* и высоту */
+    background: url(../img/slider.png) no-repeat; /* картинка изображающая ползунок. Или можно залить цветом, задать бордюр и скругления */
+    cursor: pointer
+}
+.ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    overflow: hidden;
+}
+/* горизонтальный слайдер (сама полоса по которой бегает ползунок) */
+
+.ui-slider-horizontal {
+    height: 6px; /* задаем высоту согласно дизайна */
+}
+/* позиционируем ползунки */
+
+.ui-slider-horizontal .ui-slider-handle {
+    top: -5px;
+    margin-left: -6px;
+}
+.ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%;
+}
+.ui-slider-horizontal .ui-slider-range-min {
+    left: 0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+    right: 0;
+}
+/* оформление полосы по которой ходит ползунок */
+
+.ui-widget-content {
+    border: 1px solid #D4D4D4;
+    background: black;
+}
+/* оформление активного участка (между двумя ползунками) */
+
+.ui-widget-header {
+    border: 1px solid #D4D4D4;
+    background: #f00;
+}
+/* скругление для полосы слайдера */
+
+.ui-corner-all {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
 }
