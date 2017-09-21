@@ -114,9 +114,19 @@
   {
     "name": "Reebok Track Jacket",
     "price": 100,
-    "colors": ["#e94650", "#43525d", "#44c1ff", "#2fdc7a"],
-    "sizes": ["s", "m", "l", "xl"],
+    "colors": [
+      "#e94650",
+      "#43525d",
+      "#44c1ff",
+      "#2fdc7a"
+    ],
+    "sizes": [
+      "s",
+      "m",
+      "l",
+      "xl"
+    ],
     "img": "img/1cl.png",
     "id": 15
-  },
+  }
 ]
