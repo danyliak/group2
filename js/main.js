@@ -95,7 +95,7 @@ $(function () {
     });
 
 
-    
+
     $("#slider").slider({
         min: 0,
         max: 1000,
