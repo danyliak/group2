@@ -182,7 +182,6 @@ header{
 .mainsection .cols {
     padding-top: 15px;
     padding-bottom: 15px;
-
 }
 .maintext {
     text-align: center;
@@ -212,7 +211,7 @@ header{
     height: 365px;
 }
 .goods {
-    /*padding-bottom: 15px;*/
+
     background-color: #fff;
     text-align: center;
     font-weight: bold;
@@ -244,7 +243,6 @@ header{
     height: 100%;
     opacity: 0;
     box-shadow: 0px 0px 20px 0px silver;
-    /*padding-bottom: 15px;*/
 }
 .hovergoods img {
     margin: 30px 0;
@@ -255,7 +253,6 @@ header{
     color: #ff7013;
     font-size: 18px;
     font-weight: bold;
-    /*padding-bottom: 15px;*/
 }
 
 .hovergoods p {
@@ -293,7 +290,6 @@ header{
 }
 .hovericons {
     display: block;
-    /*padding-bottom: 15px;*/
 }
 .hovericons a {
     text-decoration: none;
@@ -303,7 +299,6 @@ header{
     font-size: 20px;
     font-weight: bold;
     padding: 0 12px;
-
 }
 .hovericons a:nth-child(2) {
     color: #ff7013;
@@ -787,11 +782,10 @@ ul.tabs li.current img {
     outline: none;
 
 }
-<<<<<<< HEAD
+
 .section-product .cols {
     padding-bottom: 30px;
 }
-=======
 
 
 /* Products */
@@ -816,7 +810,7 @@ ul.tabs li.current img {
 .categories-filter, .price-filter, .filter-sizes, .brands {
     background-color: #ffffff;
     padding: 20px 20px;
-    margin: 24px 0;
+    margin: 30px 0;
     border: inherit;
 }
 .sizes input:hover {
@@ -891,4 +885,12 @@ ul.tabs li.current img {
     -webkit-border-radius: 4px;
     border-radius: 4px;
 }
->>>>>>> e662f06cf416cbdab8b844c54f98be87af8f25d0
+
+.products-page-mainsection div .products-wrap.row{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.mainsection.products-page-mainsection .row{
+    margin-top: 0;
+}
+
