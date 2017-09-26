@@ -16,8 +16,9 @@ header{
     font-size: 12px;
     line-height: 60px;
 }
-.sh-contact-item > span{
+.sh-contact-item > a{
     color: #ff6422;
+    text-decoration: none;
 }
 .sh-contact-text, .sh-social-media{
     font-size: 10px;
@@ -27,13 +28,22 @@ header{
     padding-right: 15px;
     float: right;
 }
-.sh-social-media span:first-child{
+.sh-social-media a:first-child{
     margin-left: 0;
 }
-.sh-social-media span{
+.sh-social-media a{
     margin-left: 20px;
     line-height: 60px;
+    color: #34404b;
+    text-decoration: none;
 }
+.sh-social-media a:hover {
+    color: #ff6422;
+}
+.sh-contact-item a:hover{
+    color:  #34404b;
+}
+
 .sh-logo {
     padding: 40px 0
 }
@@ -907,4 +917,3 @@ ul.tabs li.current img {
 .mainsection.products-page-mainsection .row{
     margin-top: 0;
 }
-
